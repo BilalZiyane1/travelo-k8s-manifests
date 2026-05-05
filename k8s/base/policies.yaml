@@ -74,10 +74,10 @@ metadata:
 spec:
   hard:
     # Compute resources
-    requests.cpu: "2"           # Total CPU requests across all pods
-    requests.memory: "2Gi"      # Total memory requests
-    limits.cpu: "4"             # Total CPU limits
-    limits.memory: "4Gi"        # Total memory limits
+    requests.cpu: "4"           # Total CPU requests across all pods
+    requests.memory: "4Gi"      # Total memory requests
+    limits.cpu: "8"             # Total CPU limits
+    limits.memory: "8Gi"        # Total memory limits
     # Object counts
     pods: "20"                  # Max number of pods
     services: "10"
